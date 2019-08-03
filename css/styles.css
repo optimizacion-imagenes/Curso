@@ -36,12 +36,12 @@ p {
   line-height: 1.6em;
 }
 
-a {
+.link {
   color: var(--secondary);
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   background-color:var(--secondary);
   color: var(--light);
   position: relative;
@@ -68,7 +68,7 @@ ol {
 
 .hightlight {
   border: 1px dashed var(--secondary);
-  padding: .4em;
+  padding: .8em;
 }
 
 .hightlight:hover {
@@ -81,8 +81,9 @@ ol {
   color: var(--light);
   display: block;
   font-weight: 600;
-  margin: 2em auto;
+  margin: 0 auto;
   max-width: 80%;
   padding: .8em;
   text-align: center;
+  text-decoration: none;
 }
