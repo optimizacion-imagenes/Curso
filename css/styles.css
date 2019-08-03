@@ -2,7 +2,7 @@
   --primary: #656565;
   --secondary: #66e67b;
   --dark: #353535;
-  --medium: #468374;
+  --medium: #79928c;
   --light: #ffffff;
 }
 
@@ -18,6 +18,7 @@ h1 {
 
 h2 {
   border-left: 16px solid;
+  border-bottom: 1px solid;
   border-color: var(--medium);
   padding-left: .5em;
 }
