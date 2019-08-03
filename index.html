@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Curso Optimización de Imágenes para la web</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600&display=swap" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img class="header-logo" src="https://res.cloudinary.com/cdemo/image/upload/ar_5:6,w_400,c_fill,g_face/l_nucliweb:img-0,ar_5:6,w_400,e_pixelate:5,c_fill,g_face/fl_layer_apply,g_west,x_400/l_nucliweb:img-0,ar_5:6,w_400,e_pixelate:10,c_fill,g_face/fl_layer_apply,g_west,x_800/l_nucliweb:img-0,ar_5:6,w_400,e_pixelate:20,c_fill,g_face/fl_layer_apply,g_west,x_1200/dpr_auto,q_auto:eco,e_sharpen:40,f_jpg/nucliweb/img-0.jpg" alt="Optimización de Imágenes">
+      <h1 class="header-text">Curso Optimización de Imágenes y Vídeos</h1>
+    </header>
+    <section>
+      <p>
+        Las imágenes y vídeos representan más de un 60% del contenido del tráfico web. También las tenemos presentes en las aplicaciones nativas, y los videojuegos están llenos de texturas generadas por imágenes.
+      </p>
+      <p>
+        Mantener una buena optimización de las imágenes nos permitirá mejorar la experiencia de usuario en la web, en las aplicaciones nativas y en los videojuegos.
+      </p>
+      <ol>
+        <li>Conoceremos las herramientas más importantes.</li>
+        <li>Profundizaremos en aprender los principios básicos de los formatos de imágenes.</li>
+        <li>Analizaremos los mejores compresores para conseguir que nuestras imágenes se carguen lo antes posible.</li>
+        <li>Veremos cómo optimizar las imágenes para que ocupen lo menos posible en memoria.</li>
+      </ol>
+    </section>
+    
+    <h2>Contenido del curso</h2>
+
+    <section>
+      <h3>01. El mejor formato según el caso de uso</h3>
+      <p>Una vez tenemos claras las imágenes (y cantidad) para nuestro contenido, debemos poner atención en el formato correcto según el dispositivo. Hay más formatos de lo que creemos y muchos nuevos que están por aparecer, así que vamos a conocerlos e identificar cuál es mejor para nuestro caso de uso.</p>
+    </section>
+
+    <section>
+      <h3>02. ¿Mis imágenes necesitan optimización?</h3>
+      <p>Las conexiones de internet cada vez son más rápidas, ¿necesito optimizar mis imágenes?, la respuesta corta y rápida es: <strong>Sí</strong>.</p>
+      <p>Hay varias herramientas para comprobar si nuestras imágenes deben pasar por un proceso de optimización. Veremos herramientas online y las que tenemos disponibles en el navegador. Como las imágenes no sólo son para la web, también veremos herramientas CLI (para poder analizar las imágenes desde la consola) para nuestros proyectos de apps nativas o videojuegos.</p>
+    </section>
+
+    <section>
+      <h3>03. ¡Vale!, necesito optimizar mis imágenes</h3>
+      <p>Ahora que tenemos claro que debemos reducir el peso de las imágenes, vamos a conocer los diferentes compresores, sus ventajas, inconvenientes, la configuración e integración.</p>
+      <p>En esta ocasión veremos cómo crear un workflow de optimización en nuestro entorno de desarrollo, cómo montar nuestro propio optimizador de imágenes en el lado del servidor con soluciones Open Source como Imageflow o Thumbor, y ver los diferentes servicios online que nos ofrecen una API para integrar la optimización de una forma sencilla y transparente como <a href="https://cloudinary.com" target="_blank">Cloudinary</a>.</p>
+    </section>
+
+    <section>
+      <h3>04. Creando imágenes responsive para la web</h3>
+      <p>A la hora de entregar las imágenes a nuestra web, una de las cosas que hemos que tener en cuenta, es el dispositivo y resolución a la que se están cargando. Veremos cómo preparar las imágenes para diferentes dispositivos, densidades y resoluciones, así de las mejores opciones para dar soporte a los diferentes navegadores.</p>
+    </section>
+
+    <section>
+      <h3>05. ¿Me puedo fiar de la optimización automatizada?</h3>
+      <p>El equipo de diseño, en cuanto oigan hablar de optimización de imágenes de forma <strong>automática</strong>, seguro que se van a oponer por miedo a que las imágenes no cumplan con la calidad deseada. Tenemos disponibles herramientas que nos permiten poder implementar tests de regresión para poder validar esas compresiones.</p>
+      <p>Conoceremos los diferentes algoritmos de validación, cuales son los que utilizan los compresores más utilizados y cómo integrarlos en nuestros desarrollos.</p>
+    </section>
+
+    <section>
+      <h3>06. Velocidad de carga: Percepción vs Realidad en la web</h3>
+      <p>Este tema va más allá de la optimización de las imágenes... la percepción del usuario es muy complicada de medir, pero analizaremos diferentes estudios y soluciones para mejorar esa percepción.</p>
+      <p>Vamos a ver las soluciones implementadas por Facebook, Pinterest y Google, así como algunas herramientas que han aparecido con este enfoque, como LQIP loader.</p>
+    </section>
+
+    <section>
+      <h3>07. Procesamiento de imágenes</h3>
+      <p>Conocer cómo funciona de forma interna la decodificación y codificación que se hace en el navegador a las imágenes, nos ayudará a entender que la optimización va más allá de reducir el peso o tiempo de descarga, ya que nuestras imágenes acaban en la memoria del dispositivo. En ese punto, tenemos un margen de mejora para mejorar la experiencia de usuario con nuestras imágenes.</p>
+    </section>
+
+    <section>
+      <h3>08. Optimizando vídeos</h3>
+      <p>Cuando hablamos de presentar la información de forma gráfica, no sólo lo hacemos con imágenes. También lo hacemos con vídeos, un formato que nos ofrece varias posibilidades en cuanto a codecs y compresores. Veremos los más utilizados y conoceremos el progreso que está teniendo en los últimos años este gran formato para compartir información.</p>
+    </section>
+
+    <section>
+      <h3>09. Recursos para mejorar tus conocimientos en Optimización de Imágenes y Vídeos</h3>
+      <p>Por último, vamos a dedicar una sesión de la formación a ver los diferentes trucos, recursos, documentación y herramientas que debemos conocer para mejorar nuestros conocimientos en optimización de imágenes y vídeos.</p>
+    </section>
+
+    <section>
+      <h2>¿A quién va dirigido este curso?</h2>
+      <div class="hightlight">
+      <p>Este curso va dirigido a toda persona que quiera conocer, o mejorar sus conocimientos, en optimización de imágenes y vídeos.</p>
+      <p>Tanto si te interesa conocer este apasionante mundo, como si quieres aumentar tus conocimientos, este curso es para ti.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Requisitos para aprovechar al 100% el curso</h2>
+      <div class="hightlight">
+      <p>No serán necesarios conocimientos de programación, en la mayoría de los ejemplos trabajaremos en la configuración de las herramientas. En los ejemplos de implementación de las API con servicios con los de Cloudinary, nos basaremos en su documentación, por lo que no será difícil seguirlos.</p>
+      <p>Trabajaremos en un entorno macOS, pero veremos herramientas para cubrir también los sistemas operativos Windows y Linux.</p>
+      </div>
+    </section>
+
+    <section>
+      <p>Si estás interesada/o en este curso, suscríbete y recibirás un aviso cuando se publique, junto con un <strong>cupón descuento del 10%</strong> 😊</p>
+      <a class="cta" href="https://mailchi.mp/02f19ccc89e0/curso-optimizacion-imagenes" target="_blank">Quiero enterarme cuando se publique!</a>
+    </section>
+
+  </div>
+
+</body>
+</html>
