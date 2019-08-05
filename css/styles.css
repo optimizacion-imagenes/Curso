@@ -55,8 +55,8 @@ ol {
   border-left: 1px dotted var(--secondary);
 }
 
-
 .wrapper {
+  margin: 0 auto;
   max-width: 900px;
   padding: 1em;
 }
@@ -65,8 +65,6 @@ ol {
   max-width: 100%;
 }
 
-
-
 .hightlight {
   border: 1px dashed var(--secondary);
   padding: .8em 2em;
@@ -74,6 +72,7 @@ ol {
 
 .hightlight:hover {
   border-color: var(--medium);
+  transition: border-color 0.15s ease-in;
 }
 
 .cta {
@@ -85,6 +84,11 @@ ol {
   margin: 0 auto;
   max-width: 80%;
   padding: .8em;
+  transition: background-color 0.15s ease-in;
   text-align: center;
   text-decoration: none;
+}
+
+.cta:hover {
+  background-color: var(--medium);
 }
