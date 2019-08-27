@@ -92,3 +92,8 @@ ol {
 .cta:hover {
   background-color: var(--medium);
 }
+
+.my-self p {
+  margin-block-end: 5px;
+  margin-block-start: auto;
+}
