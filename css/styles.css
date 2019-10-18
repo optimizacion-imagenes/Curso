@@ -37,6 +37,10 @@ p {
   line-height: 1.6em;
 }
 
+img {
+  max-width: 100%;
+}
+
 .link {
   color: var(--secondary);
   text-decoration: none;

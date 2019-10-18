@@ -41,6 +41,19 @@
     <section>
       <h3>01. El mejor formato según el caso de uso</h3>
       <p>Una vez tenemos claras las imágenes (y cantidad) para nuestro contenido, debemos poner atención en el formato correcto según el dispositivo. Hay más formatos de lo que creemos y muchos nuevos que están por aparecer, así que vamos a conocerlos e identificar cuál es mejor para nuestro caso de uso.</p>
+      <picture>
+        <img
+          sizes="(max-width: 1400px) 100vw, 1400px"
+          srcset="
+            ./images/images-files_hvdrca_c_scale,w_200.png 200w,
+            ./images/images-files_hvdrca_c_scale,w_487.png 487w,
+            ./images/images-files_hvdrca_c_scale,w_701.png 701w,
+            ./images/images-files_hvdrca_c_scale,w_909.png 909w,
+            ./images/images-files_hvdrca_c_scale,w_1096.png 1096w,
+            ./images/images-files_hvdrca_c_scale,w_1400.png 1400w"
+          src="./images/images-files_hvdrca_c_scale,w_1400.png"
+          alt="El mejor formato según el caso de uso">
+      </picture>
     </section>
 
     <section>
